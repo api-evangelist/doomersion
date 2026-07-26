@@ -1,8 +1,28 @@
 aid: doomersion
 name: Doomersion
-description: Doomersion is a company surfaced as a portfolio company of y-combinator and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Doomersion (doomlingo.ai) is a consumer mobile language-learning app that
+  teaches languages by "doomscrolling" — a vertical, TikTok-style feed of
+  short-form videos in the learner's target language, matched to their level,
+  with clickable explainer subtitles that let you tap any word for an instant
+  translation and grammar note. Founded by Mostafa Afr and backed by Y
+  Combinator, the app ships on iOS and Android. Doomersion exposes no public
+  developer API, SDK, or documentation surface; this record is an API
+  Evangelist network company profile capturing its public web and identity
+  footprint.
 url: https://raw.githubusercontent.com/api-evangelist/doomersion/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://doomersion.com/L2%20BLACK.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,12 +31,38 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Language Learning
+- EdTech
+- Mobile App
+- Consumer
+- Short-Form Video
+- Y Combinator
 apis: []
+common:
+- type: DomainSecurity
+  url: security/doomersion-domain-security.yml
+- type: Website
+  url: https://doomersion.com/
+- type: PrivacyPolicy
+  url: https://doomersion.com/privacy
+- type: TermsOfService
+  url: https://doomersion.com/terms
+- type: Support
+  url: https://doomersion.com/support
+- type: AppStore
+  url: https://apps.apple.com/us/app/doomersion/id6753957215
+- type: GooglePlay
+  url: https://play.google.com/store/apps/details?id=com.mostafaafr.doomlingo
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
